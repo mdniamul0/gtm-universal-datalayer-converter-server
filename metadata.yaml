@@ -1,0 +1,5 @@
+homepage: "https://mdniamul.com"
+documentation: "https://github.com/mdniamul0/gtm-universal-datalayer-converter-server#readme"
+versions:
+  - sha: 17d2eb3afac14271f908a83bd1a0a2d6d146eb83
+    changeNotes: "Initial release."
