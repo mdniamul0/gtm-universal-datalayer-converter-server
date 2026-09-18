@@ -1,4 +1,4 @@
-___TERMS_OF_SERVICE___
+﻿___TERMS_OF_SERVICE___
 
 By creating or modifying this file you agree to Google Tag Manager's Community
 Template Gallery Developer Terms of Service available at
@@ -1423,7 +1423,7 @@ scenarios:
     settings.hashUserData = false;
     const result = runCode(settings);
     assertThat(result.user_data.em).isEqualTo('test@example.com');
-- name: Hashes Google Ads phone in E.164 format, distinct from Meta's digits-only format
+- name: Hashes Google Ads phone in E164 format, distinct from Meta's digits-only format
   code: |-
     setEventData(ga4Purchase);
     const metaResult = runCode(withPlatform('meta'));
