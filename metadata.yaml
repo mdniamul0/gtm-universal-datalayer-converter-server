@@ -1,5 +1,5 @@
 homepage: "https://mdniamul.com"
 documentation: "https://github.com/mdniamul0/gtm-universal-datalayer-converter-server#readme"
 versions:
-  - sha: 17d2eb3afac14271f908a83bd1a0a2d6d146eb83
-    changeNotes: "Initial release."
+  - sha: bff14a2f15dabdf84b0194d4ba8ea67cc846b36a
+    changeNotes: "Initial release. Fixed an invalid character (a period) in a test scenario name, which GTM's template validator rejects, and added a UTF-8 BOM to match the exporter's format. Verified by importing and running the template's tests in a live GTM server container."
